@@ -1,0 +1,76 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100vh;
+  background: url("img/HelloKitty.png") no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+h2 {
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 30px;
+  margin-left: 39px;
+  color: darkred;
+}
+
+.clock {
+  display: flex;
+  margin-left: 3px;
+  margin-top: -25px;
+
+}
+
+.clock div {
+  margin: 5px;
+  position: relative;
+}
+
+.clock span {
+  border-radius: 10px;
+  width: 100px;
+  height: 80px;
+  background: rgb(221, 78, 123);
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+  margin-top: 1px;
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: darkred;
+}
+
+.clock #ampm {
+  bottom: 100;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background: rgb(205, 205, 85);
+}
+
+select {
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 98px;
+  margin-top: 10px;
+  padding: 4px;
+  font-size: 16px;
+  background-color: rgb(221, 78, 123);
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
