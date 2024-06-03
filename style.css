@@ -19,10 +19,17 @@ h2 {
   color: darkred;
 }
 
+p {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 .clock {
   display: flex;
   margin-left: 3px;
-  margin-top: -25px;
+  margin-bottom: 10px;
 
 }
 
