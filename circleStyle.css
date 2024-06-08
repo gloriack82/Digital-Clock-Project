@@ -11,7 +11,7 @@ body {
 }
 
 h2 {
-  margin-top: 11px;
+  margin-top: 20px;
   margin-bottom: 6px;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -23,7 +23,7 @@ h2 {
 .dialclock {
   position: absolute;
   left: 56px;
-  top: 50px;
+  top: 60px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -173,4 +173,6 @@ a {
   margin-left: 98px;
   z-index: 100;
 }
+
+
 
