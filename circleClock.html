@@ -4,39 +4,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Gloria Chen" />
-    <meta name="description" content="Gloria's second html project-num" />
+    <meta name="description" content="Gloria's second html project-dial" />
     <meta name="viewport" content="width=device-width, intial-scale=1.0" />
     <title>This is a Dial Clock</title>
     <link rel="icon" href="IMG/clock logo.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="circleStyle.css" />
   </head>
 
   <body>
+    <a href="index.html" style="margin-top: 39px; margin-left: 36px;">👈Back</a>
     <h2><em>Digital Clock</em></h2>
-    <div class="clock">
-      <div>
-        <span id="hour">00</span>
-        <span class="text">Hours</span>
-      </div>
-      <div>
-        <span id="minutes">00</span>
-        <span class="text">Minutes</span>
-      </div>
-      <div>
-        <span id="seconds">00</span>
-        <span class="text">Seconds</span>
-      </div>
-      <div>
-        <span id="ampm">AM</span>
-      </div>
+
+    <div class="dialclock">
+      <div id="hourhand0" class="hourhand1"></div>
+      <div id="minhand0" class="minhand1"></div>
+      <div id="sechand0" class="sechand1"></div>
+      <div class="point"></div>
     </div>
-    <!-- <div class="clock-dial">
-      <div class="point">
-      
 
-      </div>
+    <div>
+      <span id="ampm">AM</span>
+    </div>
 
-    </div> -->
     <select name="city" id="city-selection" size="1">
       <option value="local">Local Time</option>
       <option value="-8">Anchorage</option>
@@ -88,11 +77,9 @@
       <option value="3">Zurich</option>
     </select>
 
-    <button><a href="circleClock.html">DIAL</a></button>
-
 
     <p>Image: "Hello Kitty" by &copy;Sanrio, used under educational fair use.
     </p>
-    <script src="index.js"></script>
+    <script src="circle.js"></script>
   </body>
 </html>
